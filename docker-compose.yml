@@ -3,5 +3,5 @@ services:
     image: nano03/234-deploylab-frontend:latest
     pull_policy: always
     ports:
-      - "8081:80"
+      - "8081:8080"  # Changed from 80 to 8080 to match your Dockerfile
     restart: unless-stopped
